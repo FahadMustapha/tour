@@ -1,0 +1,252 @@
+/*
+this is the style sheet that has all our CSS codes that are going to be used by
+all our webpage that we create, we just need to linkup webpages with this stylesheet
+it also helps us not to repeat our self and to keep our pages with uniform properties
+*/
+body {
+  background-color: aquamarine;
+}
+
+#head-div {
+  width: 100%;
+  height: 600px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form {
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 10px;
+  width: 150px;
+  padding: 5px;
+}
+
+.feedback {
+  margin-top: -35px;
+}
+
+#menu-div li {
+  float: right;
+  border-right: cadetblue solid 2px;
+  display: inline;
+  padding: 5px;
+  color: #000000;
+  height: 20%;
+  font-size: 130%;
+}
+
+#menu-div li:hover{
+ color: crimson;
+}
+
+#title-div {
+  float: left;
+  height: 220px;
+  padding-top: 30%;
+  padding-left: 35%;
+  font-size: 190%;
+}
+
+/*social media accounts icons*/
+#social-media-icons{
+  width: 100px;
+  height: 50px;
+  display: inline;
+  float: left;
+}
+#social-media-icons.body{
+  margin: 0;
+  padding:0;
+  background: #262626;
+  width: 10%;
+  height: 100px;
+}
+
+#social-media-icons ul {
+  display: flex;
+  position:inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+ul li a:hover:before {
+  top: 0;
+}
+
+ul li:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+ul li:nth-child(2) a:before{
+  background: #55acee;
+}
+
+ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+ul li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+/*social media accounts icons*/
+
+#bhm {
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+#container {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  height: 700px;
+  width: 100%;
+  margin-top: 220px;
+  margin-bottom: 180px;
+}
+
+#column {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 15px;
+  padding: 20px 10px;
+  color: black;
+  border-radius: 15px;
+}
+
+#cimages{
+  width: 360px;
+  height: 260px;
+}
+
+#column:hover{
+  transform: rotateY(8deg);
+  transition: 0.5s;
+}
+
+#pagebreak-div {
+  background-color: rgba(249, 1, 1, 0.669);
+  width: 100%;
+  height:300px;
+}
+
+#reference-div {
+  width: 20%;
+  float: right;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#copyright-div {
+  text-align: center;
+  font-size: 25px;
+}
+
+#contact-div {
+  width: 20%;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+/*css for Profile webpage*/
+#phead-div{
+  width: 100%;
+  height: 700px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.intro{
+  float: left;
+  width: 50%;
+  margin-bottom: 80px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  margin-top: 80px;
+  display: grid;
+  place-content: middle;
+  margin-bottom: 170px;
+}
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  background-color: rgb(162, 227, 206);
+  border-radius: 5px 0 5px 5px;
+  width: 318px;
+  height: 100px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* Add rounded corners to the top left and the top right corner of the image */
+#cardimage {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px 5px 0 5px;
+}
+
+.marquee{
+  behavior: slide;
+  direction: right; 
+  transform: left;
+}

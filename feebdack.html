@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer feedback</title>
+  <link rel="stylesheet" href="css/feedback.css">
+</head>
+<body>
+  <div class="division">
+    <div class="f-div">
+      <h3>Attach your information Here</h3>
+      <p style="color: red;">All required</p>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" name="firstname" placeholder ="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastname" placeholder="Your last name..">
+    
+        <label for="email">Email</label>
+        <input type="text" name="Email Address" placeholder="Your Email Address..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="uganda">Uganda</option>
+          <option value="canada">Canada</option>
+          <option value="south africa">South Africa</option>
+        </select>
+        <form action="">
+            <textarea name="message" rows="10" cols="30" placeholder="comment.." ></textarea>
+            <br><br>
+          </form>
+        <a href="home.html"><input type="submit" value="Submit"></a>
+      </form>
+    </div>
+  </div>  
+</body>
+</html>
+

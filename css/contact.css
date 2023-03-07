@@ -1,0 +1,169 @@
+
+#head-div {
+  width: 100%;
+  height: 600px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#title-div {
+  float: left;
+  height: inherit;
+  padding-top: 30%;
+  padding-left: 35%;
+  font-size: 190%;
+  color: red;
+}
+
+#main-div{
+  width: 70%;
+  height:400px;
+  background-color: darkcyan;
+  border-radius: 20%;
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  padding-right: 200px;
+  align-items: center;
+  columns: 1;
+  position: relative;
+}
+
+#menu-div li {
+  border-right: cadetblue solid 2px;
+  display: inline;
+  padding: 5px;
+  color: #000000;
+  height: 20%;
+  font-size: 130%;
+}
+
+#menu-div li:hover{
+ color: crimson;
+}
+
+/*social media accounts icons*/
+#social-media-icons{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  padding-top: 20px;
+  background-color: #000000;
+}
+
+#social-media-icons.body{
+  margin: 0;
+  padding:0;
+  background: #262626;
+  width: 10%;
+  height: 100px;
+}
+
+#social-media-icons ul {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+ul li a:hover:before {
+  top: 0;
+}
+
+ul li:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+ul li:nth-child(2) a:before{
+  background: #55acee;
+}
+
+ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+ul li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+/*social media accounts icons*/
+
+.media-names{
+  font-size: 25px;
+  width: 400px;
+  height: 300px;
+  float:left;
+  background-color: #f00;
+}
+
+.media-names :hover{
+  color: goldenrod;
+}
+
+#page-break-div {
+  background-color: indigo;
+  width: 100%;
+  height: 300px;
+}
+
+#reference-div {
+  width: 20%;
+  float: right;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#copyright-div {
+  text-align: center;
+  font-size: 25px;
+}
+
+#contact-div {
+  width: 20%;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 25px;
+}

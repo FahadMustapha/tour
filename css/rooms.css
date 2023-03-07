@@ -1,0 +1,113 @@
+
+body {
+        background-color: black;
+}
+
+#head-div {
+        width: 100%;
+        height: 600px;
+        padding: 5px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+#main-div {
+        margin: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+#menu-div li {
+        float: right;
+        display: inline;
+        padding: 5px;
+        color: aquamarine;
+        height: 20%;
+        font-size: 130%;
+}
+
+#menu-div li:hover {
+        color: black;
+}
+
+#title-div {
+        float: left;
+        height: 30px;
+        padding-top: 30%;
+        padding-left: 35%;
+        font-size: 190%;
+        color: aqua;
+}
+
+#images{
+        width: 100%;
+        height: 1400px;
+        margin-bottom: 150px;
+}
+
+#left{
+        width: 47%;
+        float: left;
+}
+#right{
+        width: 47%;
+        float: right;
+}
+
+
+.gallery {
+        margin: 5px;
+        display: grid;
+        width: 100%;
+}
+
+.gallery:hover {
+        transform: rotateY(8deg);
+        transition: 0.5s;
+}
+
+.gallery img {
+        width: 100%;
+        border-radius: 5%;
+}
+
+nav{
+        float: right;
+        height: 45px;
+}
+button{
+        font-size: 20px;
+        padding: 5px;
+}
+button:hover{
+        color: red;
+}
+
+#page-break-div {
+        background-color:slategrey;
+        -webkit-backdrop-filter: blur(40px);
+        backdrop-filter: blur(10px);
+        color: black;
+        width: 100%;
+        height: 400px;
+}
+
+#reference-div {
+        width: 20%;
+        float: right;
+        padding: 10px;
+        font-size: 25px;
+}
+
+#copyright-div {
+        text-align: center;
+        font-size: 25px;        
+}
+
+#contact-div {
+        width: 20%;
+        margin-left: 20px;
+        padding: 10px;
+        font-size: 25px;
+}
